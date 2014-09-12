@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE006BF19229F5E00EAF1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006BE19229F5E00EAF1EB /* Foundation.framework */; };
+		BAE006C119229F5E00EAF1EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006C019229F5E00EAF1EB /* CoreGraphics.framework */; };
+		BAE006C319229F5E00EAF1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006C219229F5E00EAF1EB /* UIKit.framework */; };
+		BAE006C919229F5E00EAF1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE006C719229F5E00EAF1EB /* InfoPlist.strings */; };
+		BAE006CB19229F5E00EAF1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE006CA19229F5E00EAF1EB /* main.m */; };
+		BAE006CF19229F5E00EAF1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE006CE19229F5E00EAF1EB /* AppDelegate.m */; };
+		BAE006D219229F5E00EAF1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE006D019229F5E00EAF1EB /* Main.storyboard */; };
+		BAE006D519229F5E00EAF1EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE006D419229F5E00EAF1EB /* ViewController.m */; };
+		BAE006D719229F5E00EAF1EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE006D619229F5E00EAF1EB /* Images.xcassets */; };
+		BAE006DE19229F5E00EAF1EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006DD19229F5E00EAF1EB /* XCTest.framework */; };
+		BAE006DF19229F5E00EAF1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006BE19229F5E00EAF1EB /* Foundation.framework */; };
+		BAE006E019229F5E00EAF1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE006C219229F5E00EAF1EB /* UIKit.framework */; };
+		BAE006E819229F5E00EAF1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE006E619229F5E00EAF1EB /* InfoPlist.strings */; };
+		BAE006EA19229F5E00EAF1EB /* Doodle_Jump_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE006E919229F5E00EAF1EB /* Doodle_Jump_TutorialTests.m */; };
+		BAE006F81922A09A00EAF1EB /* bounce.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE006F31922A09A00EAF1EB /* bounce.png */; };
+		BAE006F91922A09A00EAF1EB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE006F41922A09A00EAF1EB /* ball.png */; };
+		BAE006FA1922A09A00EAF1EB /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE006F51922A09A00EAF1EB /* ball2.png */; };
+		BAE006FB1922A09A00EAF1EB /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE006F61922A09A00EAF1EB /* bar.png */; };
+		BAE006FC1922A09A00EAF1EB /* title copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE006F71922A09A00EAF1EB /* title copy.png */; };
+		BAE006FF1922A70900EAF1EB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE006FE1922A70900EAF1EB /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE006E119229F5E00EAF1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE006B319229F5D00EAF1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE006BA19229F5D00EAF1EB;
+			remoteInfo = "Doodle Jump Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE006BB19229F5D00EAF1EB /* Doodle Jump Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doodle Jump Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE006BE19229F5E00EAF1EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAE006C019229F5E00EAF1EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAE006C219229F5E00EAF1EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAE006C619229F5E00EAF1EB /* Doodle Jump Tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doodle Jump Tutorial-Info.plist"; sourceTree = "<group>"; };
+		BAE006C819229F5E00EAF1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAE006CA19229F5E00EAF1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE006CC19229F5E00EAF1EB /* Doodle Jump Tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doodle Jump Tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		BAE006CD19229F5E00EAF1EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE006CE19229F5E00EAF1EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE006D119229F5E00EAF1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE006D319229F5E00EAF1EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAE006D419229F5E00EAF1EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAE006D619229F5E00EAF1EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAE006DC19229F5E00EAF1EB /* Doodle Jump TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doodle Jump TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE006DD19229F5E00EAF1EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BAE006E519229F5E00EAF1EB /* Doodle Jump TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doodle Jump TutorialTests-Info.plist"; sourceTree = "<group>"; };
+		BAE006E719229F5E00EAF1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAE006E919229F5E00EAF1EB /* Doodle_Jump_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doodle_Jump_TutorialTests.m; sourceTree = "<group>"; };
+		BAE006F31922A09A00EAF1EB /* bounce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bounce.png; sourceTree = "<group>"; };
+		BAE006F41922A09A00EAF1EB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		BAE006F51922A09A00EAF1EB /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		BAE006F61922A09A00EAF1EB /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		BAE006F71922A09A00EAF1EB /* title copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title copy.png"; sourceTree = "<group>"; };
+		BAE006FD1922A70900EAF1EB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		BAE006FE1922A70900EAF1EB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE006B819229F5D00EAF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006C119229F5E00EAF1EB /* CoreGraphics.framework in Frameworks */,
+				BAE006C319229F5E00EAF1EB /* UIKit.framework in Frameworks */,
+				BAE006BF19229F5E00EAF1EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE006D919229F5E00EAF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006DE19229F5E00EAF1EB /* XCTest.framework in Frameworks */,
+				BAE006E019229F5E00EAF1EB /* UIKit.framework in Frameworks */,
+				BAE006DF19229F5E00EAF1EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE006B219229F5D00EAF1EB = {
+			isa = PBXGroup;
+			children = (
+				BAE006C419229F5E00EAF1EB /* Doodle Jump Tutorial */,
+				BAE006E319229F5E00EAF1EB /* Doodle Jump TutorialTests */,
+				BAE006BD19229F5D00EAF1EB /* Frameworks */,
+				BAE006BC19229F5D00EAF1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE006BC19229F5D00EAF1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006BB19229F5D00EAF1EB /* Doodle Jump Tutorial.app */,
+				BAE006DC19229F5E00EAF1EB /* Doodle Jump TutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE006BD19229F5D00EAF1EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006BE19229F5E00EAF1EB /* Foundation.framework */,
+				BAE006C019229F5E00EAF1EB /* CoreGraphics.framework */,
+				BAE006C219229F5E00EAF1EB /* UIKit.framework */,
+				BAE006DD19229F5E00EAF1EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAE006C419229F5E00EAF1EB /* Doodle Jump Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006CD19229F5E00EAF1EB /* AppDelegate.h */,
+				BAE006CE19229F5E00EAF1EB /* AppDelegate.m */,
+				BAE006D019229F5E00EAF1EB /* Main.storyboard */,
+				BAE006D319229F5E00EAF1EB /* ViewController.h */,
+				BAE006D419229F5E00EAF1EB /* ViewController.m */,
+				BAE006FD1922A70900EAF1EB /* Game.h */,
+				BAE006FE1922A70900EAF1EB /* Game.m */,
+				BAE006D619229F5E00EAF1EB /* Images.xcassets */,
+				BAE006C519229F5E00EAF1EB /* Supporting Files */,
+			);
+			path = "Doodle Jump Tutorial";
+			sourceTree = "<group>";
+		};
+		BAE006C519229F5E00EAF1EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006F31922A09A00EAF1EB /* bounce.png */,
+				BAE006F41922A09A00EAF1EB /* ball.png */,
+				BAE006F51922A09A00EAF1EB /* ball2.png */,
+				BAE006F61922A09A00EAF1EB /* bar.png */,
+				BAE006F71922A09A00EAF1EB /* title copy.png */,
+				BAE006C619229F5E00EAF1EB /* Doodle Jump Tutorial-Info.plist */,
+				BAE006C719229F5E00EAF1EB /* InfoPlist.strings */,
+				BAE006CA19229F5E00EAF1EB /* main.m */,
+				BAE006CC19229F5E00EAF1EB /* Doodle Jump Tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE006E319229F5E00EAF1EB /* Doodle Jump TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006E919229F5E00EAF1EB /* Doodle_Jump_TutorialTests.m */,
+				BAE006E419229F5E00EAF1EB /* Supporting Files */,
+			);
+			path = "Doodle Jump TutorialTests";
+			sourceTree = "<group>";
+		};
+		BAE006E419229F5E00EAF1EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE006E519229F5E00EAF1EB /* Doodle Jump TutorialTests-Info.plist */,
+				BAE006E619229F5E00EAF1EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE006BA19229F5D00EAF1EB /* Doodle Jump Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE006ED19229F5E00EAF1EB /* Build configuration list for PBXNativeTarget "Doodle Jump Tutorial" */;
+			buildPhases = (
+				BAE006B719229F5D00EAF1EB /* Sources */,
+				BAE006B819229F5D00EAF1EB /* Frameworks */,
+				BAE006B919229F5D00EAF1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doodle Jump Tutorial";
+			productName = "Doodle Jump Tutorial";
+			productReference = BAE006BB19229F5D00EAF1EB /* Doodle Jump Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE006DB19229F5E00EAF1EB /* Doodle Jump TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE006F019229F5E00EAF1EB /* Build configuration list for PBXNativeTarget "Doodle Jump TutorialTests" */;
+			buildPhases = (
+				BAE006D819229F5E00EAF1EB /* Sources */,
+				BAE006D919229F5E00EAF1EB /* Frameworks */,
+				BAE006DA19229F5E00EAF1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE006E219229F5E00EAF1EB /* PBXTargetDependency */,
+			);
+			name = "Doodle Jump TutorialTests";
+			productName = "Doodle Jump TutorialTests";
+			productReference = BAE006DC19229F5E00EAF1EB /* Doodle Jump TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE006B319229F5D00EAF1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Terence Wilbert";
+				TargetAttributes = {
+					BAE006DB19229F5E00EAF1EB = {
+						TestTargetID = BAE006BA19229F5D00EAF1EB;
+					};
+				};
+			};
+			buildConfigurationList = BAE006B619229F5D00EAF1EB /* Build configuration list for PBXProject "Doodle Jump Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE006B219229F5D00EAF1EB;
+			productRefGroup = BAE006BC19229F5D00EAF1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE006BA19229F5D00EAF1EB /* Doodle Jump Tutorial */,
+				BAE006DB19229F5E00EAF1EB /* Doodle Jump TutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE006B919229F5D00EAF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006F81922A09A00EAF1EB /* bounce.png in Resources */,
+				BAE006F91922A09A00EAF1EB /* ball.png in Resources */,
+				BAE006D719229F5E00EAF1EB /* Images.xcassets in Resources */,
+				BAE006FA1922A09A00EAF1EB /* ball2.png in Resources */,
+				BAE006FB1922A09A00EAF1EB /* bar.png in Resources */,
+				BAE006C919229F5E00EAF1EB /* InfoPlist.strings in Resources */,
+				BAE006FC1922A09A00EAF1EB /* title copy.png in Resources */,
+				BAE006D219229F5E00EAF1EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE006DA19229F5E00EAF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006E819229F5E00EAF1EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE006B719229F5D00EAF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006D519229F5E00EAF1EB /* ViewController.m in Sources */,
+				BAE006CF19229F5E00EAF1EB /* AppDelegate.m in Sources */,
+				BAE006CB19229F5E00EAF1EB /* main.m in Sources */,
+				BAE006FF1922A70900EAF1EB /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE006D819229F5E00EAF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE006EA19229F5E00EAF1EB /* Doodle_Jump_TutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE006E219229F5E00EAF1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE006BA19229F5D00EAF1EB /* Doodle Jump Tutorial */;
+			targetProxy = BAE006E119229F5E00EAF1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE006C719229F5E00EAF1EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE006C819229F5E00EAF1EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAE006D019229F5E00EAF1EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE006D119229F5E00EAF1EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE006E619229F5E00EAF1EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE006E719229F5E00EAF1EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE006EB19229F5E00EAF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE006EC19229F5E00EAF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE006EE19229F5E00EAF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle Jump Tutorial/Doodle Jump Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Doodle Jump Tutorial/Doodle Jump Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAE006EF19229F5E00EAF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle Jump Tutorial/Doodle Jump Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Doodle Jump Tutorial/Doodle Jump Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAE006F119229F5E00EAF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doodle Jump Tutorial.app/Doodle Jump Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle Jump Tutorial/Doodle Jump Tutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Doodle Jump TutorialTests/Doodle Jump TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BAE006F219229F5E00EAF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doodle Jump Tutorial.app/Doodle Jump Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle Jump Tutorial/Doodle Jump Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Doodle Jump TutorialTests/Doodle Jump TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE006B619229F5D00EAF1EB /* Build configuration list for PBXProject "Doodle Jump Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE006EB19229F5E00EAF1EB /* Debug */,
+				BAE006EC19229F5E00EAF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE006ED19229F5E00EAF1EB /* Build configuration list for PBXNativeTarget "Doodle Jump Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE006EE19229F5E00EAF1EB /* Debug */,
+				BAE006EF19229F5E00EAF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAE006F019229F5E00EAF1EB /* Build configuration list for PBXNativeTarget "Doodle Jump TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE006F119229F5E00EAF1EB /* Debug */,
+				BAE006F219229F5E00EAF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE006B319229F5D00EAF1EB /* Project object */;
+}
